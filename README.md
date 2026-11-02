@@ -4,7 +4,7 @@ Encode x Solana Hackathon 2026, Best Consumer App on Solana.
 
 Corso Watch puts the coins you follow on one screen. Each coin shows its price, its 24h move, a line on what the market data shows about that move, and plain risk facts read from Solana. From any row you can set a price alert 10% above or below the price.
 
-**This repo holds only the Watch code built during the hackathon window (Oct 12 to Nov 8, 2026).** Corso itself is a private app. Watch plugs into it, so **this repo does not build or run on its own.** To try Watch, use the preview app and the video below.
+**This repo holds only the Watch code built during the hackathon window (Oct 12 to Nov 8, 2026).** Corso itself is a private app. Watch plugs into it, so **this repo does not build or run on its own.** To try Watch, use the preview app and the demo video in our Encode submission.
 
 ## Try it
 
@@ -36,7 +36,7 @@ The tests for these files live in the private app.
 
 ### Flags
 
-Both flags are off by default. They are on in the preview build and its staging server.
+Both flags are off by default, and both are off in production. The preview build used for the demo video was built with `EXPO_PUBLIC_FLAG_WATCH` on. `FLAG_WATCH_DIGEST` is off on the staging server that build talks to, so the digest route is off there too.
 
 | Flag | Where | What it turns on |
 |---|---|---|
